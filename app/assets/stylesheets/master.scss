@@ -1,10 +1,12 @@
 @import "bootstrap";
 
+
 .clear {
   clear: both;
 }
 
 .circle {
+  font-family: 'metamorphousregular', serif;
   font-weight:bold;
   font-style: italic;
   position: relative;
@@ -25,7 +27,7 @@
 }
 
 .slogan {
-  font-family: 'Metamorphous', serif;
+  font-family: 'metamorphousregular', serif;
   font-style: bold;
   font-size: 25px;
   padding-top: 26px;
@@ -36,6 +38,7 @@
   padding-top: 26px;
   text-align: right;
   padding-right: 20px;
+  font-family: 'metamorphousregular', serif;
 }
 
 .links a {
@@ -52,4 +55,14 @@ header {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+}
+
+h1 {
+  font-family: 'metamorphousregular', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'metamorphousregular', serif;
 }
