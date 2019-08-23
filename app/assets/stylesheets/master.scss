@@ -3,3 +3,53 @@
 .clear {
   clear: both;
 }
+
+.circle {
+  font-weight:bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #a50bd4;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  transform:rotate(11deg);
+  -ms-transform:rotate(11deg); /* IE 9 */
+  -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+  font-family: 'Metamorphous', serif;
+  font-style: bold;
+  font-size: 25px;
+  padding-top: 26px;
+  text-align: center;
+}
+
+.links {
+  padding-top: 26px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.links a {
+  color: black;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
+
+header {
+  border-top: 9px solid black;
+}
+
+.rule {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+}
