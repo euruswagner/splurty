@@ -13,18 +13,20 @@
   <body>
     <header class="row">
       <div class="col-4">
-        <div class="circle">
-          <br />
-          WoW
-          <br />
-          Lessons
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            WoW
+            <br />
+            Lessons
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Helping new players learn the important lessons in WoW.
       </div>
       <div class="col-4 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -41,7 +43,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "Please Master, can I learn more.", "#", class: 'next-quote' %>
+            <%= link_to "Please Master, can I learn more.", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Built by <a href="https://euruswagner.netlify.com">Eurus Wagner</a><br />
