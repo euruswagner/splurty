@@ -12,7 +12,7 @@
 
   <body>
     <header class="row">
-      <div class="col-3">
+      <div class="col">
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
@@ -22,10 +22,10 @@
           </div>
         <% end %>
       </div>
-      <div class="col col-sm-4 hidden-xs-down slogan">
+      <div class="col hidden-sm-down slogan">
         Helping new players learn the important lessons in WoW.
       </div>
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col links">
         <!-- Button trigger modal -->
         <%= link_to 'Add Lesson', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;

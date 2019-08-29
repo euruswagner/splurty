@@ -114,3 +114,27 @@ h2 span {
   color: #a50bd4;
   font-family: 'metamorphousregular', serif;
 }
+
+::selection {
+  background-color: #a50bd4;
+}
+
+.btn {
+  font-family: 'metamorphousregular', serif;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'metamorphousregular', serif;
+}
+
+::-moz-placeholder {
+  font-family: 'metamorphousregular', serif;
+}
+
+:-ms-input-placeholder {
+  font-family: 'metamorphousregular', serif;
+}
+
+:-moz-placeholder {
+  font-family: 'metamorphousregular', serif;
+}
