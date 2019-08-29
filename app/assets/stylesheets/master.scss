@@ -99,3 +99,18 @@ abbr[title="required"] {
 .about {
   font-family: 'metamorphousregular', serif;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb{
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'metamorphousregular', serif;
+}
+
+h2 span {
+  color: #a50bd4;
+  font-family: 'metamorphousregular', serif;
+}
